@@ -1,0 +1,25 @@
+{
+  "name": "appsync-masterclass",
+  "private": true,
+  "version": "1.0.0",
+  "description": "appsync BE repo for masterclass",
+  "main": "index.js",
+  "scripts": {
+    "sls": "sls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfernand0/appsync-masterclass.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mfernand0/appsync-masterclass/issues"
+  },
+  "homepage": "https://github.com/mfernand0/appsync-masterclass#readme",
+  "devDependencies": {
+    "serverless": "2.4.0",
+    "serverless-appsync-plugin": "^1.6.0"
+  }
+}
