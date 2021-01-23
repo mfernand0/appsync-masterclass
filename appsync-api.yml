@@ -4,4 +4,4 @@ authenticationType: AMAZON_COGNITO_USER_POOLS
 userPoolConfig:
   awsRegion: us-east-1
   defaultAction: ALLOW
-  userPoolId: !Ref CognitoUserPool
+  userPoolId: !Ref TestCognitoUserPool
