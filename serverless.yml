@@ -27,7 +27,7 @@ custom:
 
 functions:
   confirmUserSignup:
-    handler: funtions/confirm-user-signup.handler
+    handler: functions/confirm-user-signup.handler
     environment:
       USERS_TABLE: !Ref UsersTable
     iamRoleStatements:
@@ -101,4 +101,7 @@ resources:
 
     CognitoUserPoolId:
       Value: !Ref TestCognitoUserPool
+
+    WebCognitoUserPoolClientId:
+      Value: !Ref WebUserPoolClient
           
